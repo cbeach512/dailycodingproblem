@@ -5,10 +5,6 @@ For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the 
 In this example, assume nodes with the same value are the exact same node objects.
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 """
-def debug(msg):
-    print('DEBUG: {}'.format(msg))
-
-
 def findIntersect(list_a, list_b):
     for i in zip(list_a, list_b):
         if i[0] == i[1]:
