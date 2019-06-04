@@ -2,6 +2,14 @@
 """Problem - Day #
 
 """
-if __name__ == '__main__':
+def debug(msg):
+    print('DEBUG: {}'.fromat(msg))
+
+
+def main():
     pass
+
+
+if __name__ == '__main__':
+    main()
 
