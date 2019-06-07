@@ -3,7 +3,7 @@
 
 """
 def debug(msg):
-    print('DEBUG: {}'.fromat(msg))
+    print('DEBUG: {}'.format(msg))
 
 
 def main():
